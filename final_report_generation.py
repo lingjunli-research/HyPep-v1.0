@@ -54,3 +54,12 @@ file_out_path = results_out_path
 with open(file_out_path,'w',newline='') as filec:
         writerc = csv.writer(filec)
         formatted_table.to_csv(filec,index=False)
+        
+#Exporting actual FDR
+from driver_identification_mode import closest_to_user_FDR
+from hypep_import import out_path
+from hypep_import import fdr_percent
+
+with open(out_path+'\\Actual %FDR.txt','w') as filec:
+        filec.write('User-defined %FDR Threshold', str(fdr_percent), '%')
+        filec.write('Actual %FDR', str(closest_to_user_FDR, '%'))
