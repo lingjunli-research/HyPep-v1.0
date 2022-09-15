@@ -100,7 +100,7 @@ class FDR_Calc:
             Percent FDR (float)
         """
 
-        return round(((num_of_decoy/(num_of_target+num_of_decoy))*100),2)
+        return round(((num_of_decoy/num_of_target)*100),2)
     
     def filter_by_score(lst, score):
         """
