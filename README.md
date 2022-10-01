@@ -1,1 +1,1 @@
-[embed][[https://github.com/lingjunli-research/HyPep-v1.0/files/9690682/HyPep.User.Manual.pdf](https://drive.google.com/file/d/1q9kM5n3gc6ChC8ySf-kcoaLlhmHZWwcu/view)](https://drive.google.com/file/d/1q9kM5n3gc6ChC8ySf-kcoaLlhmHZWwcu/view)[/embed]
+https://github.com/lingjunli-research/HyPep-v1.0/blob/ea7e7384b59380a1cc98bce6a22e6841550f7ed1/Docs/HyPep%20User%20Manual.pdf
